@@ -1,0 +1,7 @@
+
+body {
+  background-image: url('../black-friday-elements-assortment.jpg'); /* Adjust the path to your image if necessary */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

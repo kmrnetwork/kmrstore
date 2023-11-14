@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar {
+  background-color: #0b0a0a;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; /* Adjust the width as needed */
+  height: auto; /* This ensures the aspect ratio is maintained */
+  margin-right: 10px; /* Add some spacing between the logo and other elements */
+}
+
+.search-bar-container {
+  flex-grow: 1; /* This allows the search bar to take up available space */
+}
+
+.search-bar {
+  width: 100%; /* Take up the full width of the container */
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+.navbar-right a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.navbar-right a:hover {
+  color: blueviolet;
+}
+/* src/components/NavigationBar.css */
+/* ...existing styles... */
+
+.brand-name {
+  font-size: 1.2em; /* Adjust the font size as needed */
+  margin-left: 10px; /* Add some spacing between the logo and the brand name */
+  color: #fff; /* Adjust the color as needed */
+}
+/* For small devices */
+@media only screen and (max-width: 600px) {
+  body {
+     background-color: blue;
+  }
+ }
+ 
+ /* For medium devices */
+ @media only screen and (min-width: 600px) and (max-width: 900px) {
+  body {
+     background-color: green;
+  }
+ }
+ 
+ /* For large devices */
+ @media only screen and (min-width: 900px) {
+  body {
+     background-color: red;
+  }
+ }

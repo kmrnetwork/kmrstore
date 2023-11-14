@@ -1,0 +1,34 @@
+/* src/components/Home.css */
+.home {
+    background-image: url('../home.jpg'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .shop-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  Link{
+    text-decoration:none;
+  }
